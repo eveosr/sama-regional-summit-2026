@@ -421,8 +421,8 @@
   /* ── SLIDE 5: FLAME DAY (combined) ── */
   #s5 { background: #021828; }
 
-  /* ── SLIDE 6: FULL SCHEDULE ── */
-  #s6 { background: #000d18; }
+  /* ── SLIDE 7: FULL SCHEDULE ── */
+  #s7 { background: #000d18; }
 
   /* ── RESPONSIVENESS ── */
   @media (max-width: 900px) {
@@ -470,8 +470,8 @@
 
       <div style="margin-top:1.5rem;display:flex;gap:0.75rem;flex-wrap:wrap;justify-content:center;">
         <span class="tag tag-orange">Day 1 — Members Gathering</span>
-        <span class="tag tag-outline">Day 2 — PH Launch</span>
-        <span class="tag tag-sky">Day 3 — FLAME 2026</span>
+        <span class="tag tag-sky">Day 2 — PH Launch & FLAME 2026</span>
+        <span class="tag tag-outline">Day 3 — Members Visit & Activities</span>
       </div>
 
     </div>
@@ -514,43 +514,43 @@
           </div>
         </div>
 
-        <!-- Day 2 -->
-        <div class="card" style="display:flex;flex-direction:column;gap:0.8rem;border-color:rgba(255,255,255,0.12);">
+        <!-- Day 2: Launch + FLAME -->
+        <div class="card card-blue" style="display:flex;flex-direction:column;gap:0.8rem;">
           <div>
-            <div class="tag tag-outline" style="margin-bottom:0.6rem;">7 July · Tuesday</div>
-            <div class="t-title" style="font-size:clamp(1rem,2vw,1.5rem);">SAMA Philippines Launch</div>
-            <div class="t-label" style="color:rgba(255,255,255,0.45);margin-top:0.3rem;font-size:0.7rem;">Members + Guests &nbsp;·&nbsp; Full Day</div>
+            <div class="tag tag-sky" style="margin-bottom:0.6rem;">7 July · Tuesday</div>
+            <div class="t-title" style="font-size:clamp(1rem,2vw,1.5rem);">PH Launch & FLAME 2026</div>
+            <div class="t-label" style="color:rgba(255,255,255,0.45);margin-top:0.3rem;font-size:0.7rem;">Members, Guests & Industry &nbsp;·&nbsp; Full Day · 10 AM Onwards</div>
           </div>
           <hr class="divider-full">
           <ul class="bullet-list">
             <li>Official launch ceremony (10 AM)</li>
-            <li>Keynote & founder sharing sessions</li>
-            <li>Press conference & media engagement</li>
-            <li>Celebration dinner (5 PM onwards)</li>
-          </ul>
-          <div style="margin-top:auto;padding-top:0.8rem;">
-            <div class="t-label" style="color:rgba(255,255,255,0.35);font-size:0.65rem;">Audience</div>
-            <div class="t-body" style="font-size:0.72rem;color:rgba(255,255,255,0.6);margin-top:0.2rem;">Members, Media, Invited Guests & Speakers</div>
-          </div>
-        </div>
-
-        <!-- Day 3 -->
-        <div class="card card-blue" style="display:flex;flex-direction:column;gap:0.8rem;">
-          <div>
-            <div class="tag tag-sky" style="margin-bottom:0.6rem;">8 July · Wednesday</div>
-            <div class="t-title" style="font-size:clamp(1rem,2vw,1.5rem);">FLAME 2026</div>
-            <div class="t-label" style="color:rgba(255,255,255,0.45);margin-top:0.3rem;font-size:0.7rem;">Open Forum &nbsp;·&nbsp; Half Day · 10 AM – 1 PM</div>
-          </div>
-          <hr class="divider-full">
-          <ul class="bullet-list">
-            <li>Industry keynotes & panel sessions</li>
-            <li>Where Asia Leads · Local Expertise, Regional Impact</li>
-            <li>Roundtable discussions</li>
+            <li>Founder & leadership keynote sessions</li>
+            <li>FLAME 2026 industry forum (2 PM)</li>
             <li>Business matching + FLAME After Dark</li>
           </ul>
           <div style="margin-top:auto;padding-top:0.8rem;">
             <div class="t-label" style="color:rgba(255,255,255,0.35);font-size:0.65rem;">Audience</div>
-            <div class="t-body" style="font-size:0.72rem;color:rgba(255,255,255,0.6);margin-top:0.2rem;">Members, Clients, Partners, Sponsors & Industry</div>
+            <div class="t-body" style="font-size:0.72rem;color:rgba(255,255,255,0.6);margin-top:0.2rem;">Members, Media, Clients, Partners, Sponsors & Industry</div>
+          </div>
+        </div>
+
+        <!-- Day 3: Members Visit & Activities -->
+        <div class="card" style="display:flex;flex-direction:column;gap:0.8rem;border-color:rgba(255,255,255,0.12);">
+          <div>
+            <div class="tag tag-outline" style="margin-bottom:0.6rem;">8 July · Wednesday</div>
+            <div class="t-title" style="font-size:clamp(1rem,2vw,1.5rem);">Members Visit & Activities</div>
+            <div class="t-label" style="color:rgba(255,255,255,0.45);margin-top:0.3rem;font-size:0.7rem;">Members Only &nbsp;·&nbsp; 11:00 AM – 5:00 PM (Slots TBD)</div>
+          </div>
+          <hr class="divider-full">
+          <ul class="bullet-list">
+            <li>PH members office visit</li>
+            <li>Pickleball & recreational activities</li>
+            <li>Lunch & informal networking</li>
+            <li>Relaxed, optional day for members</li>
+          </ul>
+          <div style="margin-top:auto;padding-top:0.8rem;">
+            <div class="t-label" style="color:rgba(255,255,255,0.35);font-size:0.65rem;">Audience</div>
+            <div class="t-body" style="font-size:0.72rem;color:rgba(255,255,255,0.6);margin-top:0.2rem;">SAMA Members (Optional)</div>
           </div>
         </div>
 
@@ -691,75 +691,69 @@
         <!-- Morning -->
         <div style="display:flex;flex-direction:column;gap:0.8rem;">
           <div class="section-label-row">
-            <div class="t-label" style="color:var(--sky-blue);font-size:0.68rem;">Morning Session · 10:00 AM – 1:00 PM</div>
+            <div class="t-label" style="color:var(--sky-blue);font-size:0.68rem;">Morning Session · 10:00 AM – 12:00 PM</div>
           </div>
 
           <div class="program-table" style="margin-top:0.3rem;">
             <div class="program-row">
               <div class="prog-time">10:00 AM</div>
-              <div><div class="prog-title">Official Launch Ceremony</div><div class="prog-note">Welcome & opening remarks</div></div>
+              <div><div class="prog-title">Welcome & Registration</div></div>
             </div>
             <div class="program-row">
               <div class="prog-time">10:30 AM</div>
-              <div><div class="prog-title">Introduction to SAMA</div><div class="prog-note">Regional vision & roadmap</div></div>
+              <div><div class="prog-title">Opening</div></div>
             </div>
             <div class="program-row">
-              <div class="prog-time">11:00 AM</div>
-              <div><div class="prog-title">Keynote & Founder Sharing</div></div>
+              <div class="prog-time">10:40 AM</div>
+              <div><div class="prog-title">SAMA Founder Speech</div></div>
+            </div>
+            <div class="program-row">
+              <div class="prog-time">10:45 AM</div>
+              <div><div class="prog-title">PH President Speech</div></div>
+            </div>
+            <div class="program-row">
+              <div class="prog-time">10:55 AM</div>
+              <div><div class="prog-title">Panel / Keynote</div></div>
             </div>
             <div class="program-row">
               <div class="prog-time">11:30 AM</div>
-              <div><div class="prog-title">Philippines Chapter Introduction</div><div class="prog-note">Founding members showcase</div></div>
+              <div><div class="prog-title">Introduction to PH Members</div></div>
+            </div>
+            <div class="program-row">
+              <div class="prog-time">11:45 AM</div>
+              <div><div class="prog-title">Launch Ceremony</div></div>
             </div>
             <div class="program-row">
               <div class="prog-time">12:00 PM</div>
-              <div><div class="prog-title">Panel: Regional Collaboration & Market Opportunities</div></div>
-            </div>
-            <div class="program-row">
-              <div class="prog-time">12:30 PM</div>
-              <div><div class="prog-title">Press Conference & Media Engagement</div></div>
-            </div>
-            <div class="program-row">
-              <div class="prog-time">1:00 PM</div>
-              <div><div class="prog-title">Networking Session</div><div class="prog-note">Agencies, brands, partners & invited guests</div></div>
+              <div><div class="prog-title">Lunch & Networking</div></div>
             </div>
           </div>
         </div>
 
-        <!-- Evening + Purpose -->
+        <!-- Purpose + Afternoon preview -->
         <div style="display:flex;flex-direction:column;gap:1rem;">
 
-          <div>
-            <div class="section-label-row">
-              <div class="t-label" style="color:var(--pale-orange);font-size:0.68rem;">Evening Session · 5:00 PM onwards</div>
-            </div>
-            <div class="program-table" style="margin-top:0.5rem;">
-              <div class="program-row">
-                <div class="prog-time">5:00 PM</div>
-                <div><div class="prog-title">Celebration Dinner</div></div>
-              </div>
-              <div class="program-row">
-                <div class="prog-time">Evening</div>
-                <div><div class="prog-title">Networking & Informal Founder Meet-up</div><div class="prog-note">Members, invited guests & speakers</div></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="card card-blue" style="margin-top:0.5rem;">
+          <div class="card card-blue">
             <div class="t-label" style="color:var(--sky-blue);font-size:0.68rem;margin-bottom:0.6rem;">Purpose</div>
             <div class="t-body">
               To officially introduce SAMA Philippines to the local market while highlighting opportunities for brands, agencies and partners to collaborate across Asia through SAMA's regional network.
             </div>
           </div>
 
-          <div class="card" style="margin-top:0.3rem;">
+          <div class="card">
             <div class="t-label" style="color:rgba(255,255,255,0.4);font-size:0.65rem;margin-bottom:0.6rem;">What makes this special</div>
             <ul class="bullet-list">
               <li>First SAMA chapter launch in the Philippines</li>
               <li>Live media coverage & press engagement</li>
               <li>Direct access to regional founding members</li>
-              <li>Evening celebration open to invited guests</li>
+              <li>Seamless transition into FLAME 2026 same afternoon</li>
             </ul>
+          </div>
+
+          <div class="card card-accent" style="margin-top:auto;">
+            <div class="t-label" style="color:var(--orange);font-size:0.65rem;margin-bottom:0.4rem;">Up Next — Same Day</div>
+            <div class="t-body" style="font-size:0.78rem;color:var(--white);font-weight:600;">FLAME 2026 begins 2:00 PM</div>
+            <div class="t-body" style="font-size:0.68rem;margin-top:0.2rem;">Forum of Leaders in Advertising, Marketing & Experiences · same venue</div>
           </div>
 
         </div>
@@ -787,11 +781,11 @@
         <div style="display:flex;align-items:center;gap:1.2rem;">
           <div class="accent-line" style="height:3rem;background:linear-gradient(180deg,var(--orange),var(--sky-blue));"></div>
           <div>
-            <div class="t-eyebrow">Day 3 · 8 July 2026, Wednesday</div>
+            <div class="t-eyebrow">Day 2 · 7 July 2026, Tuesday — Afternoon</div>
             <div class="t-title" style="font-size:clamp(1.1rem,2.2vw,1.8rem);margin-top:0.2rem;">
               <span style="background:linear-gradient(135deg,#fff 50%,var(--sky-blue));-webkit-background-clip:text;-webkit-text-fill-color:transparent;background-clip:text;">FLAME 2026</span>
             </div>
-            <div class="t-label" style="color:rgba(255,255,255,0.45);font-size:0.65rem;margin-top:0.15rem;">Forum of Leaders in Advertising, Marketing & Experiences &nbsp;·&nbsp; Half Day · 10:00 AM – 1:00 PM</div>
+            <div class="t-label" style="color:rgba(255,255,255,0.45);font-size:0.65rem;margin-top:0.15rem;">Forum of Leaders in Advertising, Marketing & Experiences &nbsp;·&nbsp; Afternoon · 2:00 PM – 7:00 PM Onwards</div>
           </div>
         </div>
         <img src="https://lh3.googleusercontent.com/d/12Gu-f29mNdO67Sb_rW8o3fY_TvLbhDNJ"
@@ -844,48 +838,48 @@
           </ul>
         </div>
 
-        <!-- Col 3: Half Day Program -->
+        <!-- Col 3: Afternoon Program -->
         <div style="display:flex;flex-direction:column;gap:0.4rem;">
-          <div class="t-label" style="color:var(--orange);font-size:0.65rem;margin-bottom:0.3rem;">Half Day Program</div>
+          <div class="t-label" style="color:var(--orange);font-size:0.65rem;margin-bottom:0.3rem;">Afternoon Program</div>
           <div class="program-table">
             <div class="program-row" style="padding:0.4rem 0;">
-              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;">10:00 – 10:30</div>
-              <div><div class="prog-title" style="font-size:0.72rem;">Registration & Networking</div></div>
+              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;">2:00 – 2:15 PM</div>
+              <div><div class="prog-title" style="font-size:0.72rem;">Arrival & Refreshments</div></div>
             </div>
             <div class="program-row" style="padding:0.4rem 0;">
-              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;">10:30 – 10:35</div>
+              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;">2:15 – 2:20 PM</div>
               <div><div class="prog-title" style="font-size:0.72rem;">Welcome Address</div></div>
             </div>
             <div class="program-row" style="padding:0.4rem 0;">
-              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;">10:35 – 10:45</div>
+              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;">2:20 – 2:30 PM</div>
               <div><div class="prog-title" style="font-size:0.72rem;">SAMA: From Local Roots to Regional Reach</div></div>
             </div>
             <div class="program-row" style="padding:0.4rem 0;">
-              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;">10:45 – 11:05</div>
-              <div><div class="prog-title" style="font-size:0.72rem;">Market Intelligence Session</div><div class="prog-note">Trends Shaping Southeast Asia's Growth</div></div>
+              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;">2:30 – 2:45 PM</div>
+              <div><div class="prog-title" style="font-size:0.72rem;">Understanding Asia: Where Are The Opportunities?</div></div>
             </div>
             <div class="program-row" style="padding:0.4rem 0;">
-              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;">11:05 – 11:30</div>
-              <div><div class="prog-title" style="font-size:0.72rem;">Panel 1: Scaling Beyond Borders</div></div>
+              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;">2:45 – 3:00 PM</div>
+              <div><div class="prog-title" style="font-size:0.72rem;">Growing Beyond Borders: What Works and What Doesn't</div></div>
             </div>
             <div class="program-row" style="padding:0.4rem 0;">
-              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;">11:30 – 11:55</div>
-              <div><div class="prog-title" style="font-size:0.72rem;">Panel 2: The Future of Regional Growth is Collaboration</div></div>
+              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;">3:00 – 3:20 PM</div>
+              <div><div class="prog-title" style="font-size:0.72rem;">Power of Collaboration: Why Can't We Do It Alone?</div></div>
             </div>
             <div class="program-row" style="padding:0.4rem 0;">
-              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;">11:55 – 12:00</div>
-              <div><div class="prog-title" style="font-size:0.72rem;">Closing Remarks & Group Photo</div></div>
+              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;">3:20 – 3:50 PM</div>
+              <div><div class="prog-title" style="font-size:0.72rem;">Ask Southeast Asia</div></div>
             </div>
             <div class="program-row" style="padding:0.4rem 0;">
-              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;">12:00 – 1:00</div>
-              <div><div class="prog-title" style="font-size:0.72rem;">Networking Lunch</div></div>
+              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;">3:50 – 4:00 PM</div>
+              <div><div class="prog-title" style="font-size:0.72rem;">Closing Reflections & Group Photo</div></div>
             </div>
             <div class="program-row" style="padding:0.4rem 0;">
-              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;">1:00 PM</div>
-              <div><div class="prog-title" style="font-size:0.72rem;">End Programme</div></div>
+              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;">4:00 – 5:00 PM</div>
+              <div><div class="prog-title" style="font-size:0.72rem;">Cocktail & Networking Reception</div></div>
             </div>
             <div class="program-row" style="padding:0.4rem 0;border-bottom:none;">
-              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;color:var(--pale-orange);">Evening</div>
+              <div class="prog-time" style="font-size:0.63rem;width:8.5rem;color:var(--pale-orange);">7:00 PM onwards</div>
               <div>
                 <div class="prog-title" style="font-size:0.72rem;color:var(--pale-orange);">FLAME After Dark ✦</div>
                 <div class="prog-note" style="color:var(--pale-orange);opacity:0.75;">Invitation-only dinner</div>
@@ -904,9 +898,82 @@
   </section>
 
   <!-- ══════════════════════════════════════════
-       SLIDE 6 — FULL 3-DAY SCHEDULE AT A GLANCE
+       SLIDE 6 — DAY 3: MEMBERS VISIT & ACTIVITIES
   ═══════════════════════════════════════════ -->
-  <section class="slide" id="s6">
+  <section class="slide day-slide" id="s6">
+    <div class="slide-content" style="padding:2.5rem 3.5rem;gap:1.2rem;">
+
+      <div style="display:flex;align-items:center;justify-content:space-between;">
+        <div style="display:flex;align-items:center;gap:1.2rem;">
+          <div class="accent-line" style="height:3rem;background:linear-gradient(180deg,#fff,rgba(255,255,255,0.3));"></div>
+          <div>
+            <div class="t-eyebrow">Day 3 · 8 July 2026, Wednesday</div>
+            <div class="t-title" style="font-size:clamp(1.2rem,2.5vw,2rem);margin-top:0.2rem;">Members Visit <span style="color:var(--sky-blue);">& Activities</span></div>
+          </div>
+        </div>
+        <div style="text-align:right;">
+          <div class="tag tag-outline">Members Only</div>
+          <div class="t-label" style="color:rgba(255,255,255,0.4);margin-top:0.4rem;font-size:0.65rem;">11:00 AM – 5:00 PM (Slots TBD)</div>
+        </div>
+      </div>
+
+      <hr class="divider-full">
+
+      <div style="display:grid;grid-template-columns:1fr 1fr;gap:2rem;flex:1;">
+
+        <!-- What to Expect -->
+        <div style="display:flex;flex-direction:column;gap:0.8rem;">
+          <div class="section-label-row">
+            <div class="t-label" style="color:var(--sky-blue);font-size:0.68rem;">What to Expect</div>
+          </div>
+          <ul class="bullet-list" style="margin-top:0.3rem;">
+            <li>PH members office visit</li>
+            <li>Pickleball & recreational activities</li>
+            <li>Lunch & informal networking</li>
+            <li>A relaxed, optional day for members to connect outside the main program</li>
+            <li>Exact slot timings to be confirmed closer to the event</li>
+          </ul>
+        </div>
+
+        <!-- Purpose + Indicative Agenda -->
+        <div style="display:flex;flex-direction:column;gap:1rem;">
+
+          <div class="card card-blue">
+            <div class="t-label" style="color:var(--sky-blue);font-size:0.68rem;margin-bottom:0.6rem;">Purpose</div>
+            <div class="t-body">
+              An optional, low-key day for members to unwind together, explore the host market and build personal connections beyond the formal program.
+            </div>
+          </div>
+
+          <div class="card">
+            <div class="t-label" style="color:rgba(255,255,255,0.4);font-size:0.65rem;margin-bottom:0.7rem;">Indicative Agenda (Slots TBD)</div>
+            <div class="program-table">
+              <div class="program-row">
+                <div class="prog-time">TBD</div>
+                <div><div class="prog-title">PH Members Office Visit</div></div>
+              </div>
+              <div class="program-row">
+                <div class="prog-time">TBD</div>
+                <div><div class="prog-title">Pickleball</div><div class="prog-note">Recreational activity</div></div>
+              </div>
+              <div class="program-row">
+                <div class="prog-time">TBD</div>
+                <div><div class="prog-title">Lunch</div><div class="prog-note">Informal networking</div></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+
+      <div class="byline">SAMA Regional Summit 2026 · Manila, Philippines</div>
+    </div>
+  </section>
+
+  <!-- ══════════════════════════════════════════
+       SLIDE 7 — FULL 3-DAY SCHEDULE AT A GLANCE
+  ═══════════════════════════════════════════ -->
+  <section class="slide" id="s7">
     <div style="position:absolute;inset:0;background:radial-gradient(ellipse at 70% 20%,#0a2035,#000d18 80%);z-index:0;"></div>
 
     <div class="slide-content" style="padding:1.8rem 3rem;gap:0.7rem;position:relative;z-index:2;">
@@ -945,50 +1012,65 @@
           </div>
         </div>
 
-        <!-- ── DAY 2 ── -->
+        <!-- ── DAY 2 (PH LAUNCH + FLAME 2026) ── -->
         <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.14);border-radius:6px;overflow:hidden;display:flex;flex-direction:column;">
-          <div style="height:3px;background:linear-gradient(90deg,rgba(255,255,255,0.6),rgba(255,255,255,0.1));"></div>
+          <div style="height:3px;background:linear-gradient(90deg,rgba(255,255,255,0.6),#3dcdf9);"></div>
           <div style="padding:0.9rem 1.1rem;flex:1;display:flex;flex-direction:column;gap:0.5rem;">
             <div style="margin-bottom:0.3rem;">
               <div style="font-family:Arial,sans-serif;font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:rgba(255,255,255,0.7);font-weight:700;">Day 2 · Tuesday 7 July</div>
-              <div style="font-family:Georgia,serif;font-size:0.95rem;color:#fff;font-weight:700;margin-top:0.2rem;">SAMA Philippines Launch</div>
-              <div style="font-family:Arial,sans-serif;font-size:0.6rem;text-transform:uppercase;letter-spacing:0.1em;color:rgba(255,255,255,0.4);margin-top:0.15rem;">Members + Media + Guests · Full Day</div>
+              <div style="font-family:Georgia,serif;font-size:0.95rem;color:#fff;font-weight:700;margin-top:0.2rem;">SAMA Philippines Launch & FLAME 2026</div>
+              <div style="font-family:Arial,sans-serif;font-size:0.6rem;text-transform:uppercase;letter-spacing:0.1em;color:rgba(255,255,255,0.4);margin-top:0.15rem;">Members + Media + Guests + Industry · Full Day · 10 AM Onwards</div>
             </div>
             <div style="height:1px;background:rgba(255,255,255,0.1);"></div>
-            <div class="program-table" style="flex:1;">
-              <div class="program-row" style="padding:0.35rem 0;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;">10:00 AM</div><div><div class="prog-title" style="font-size:0.7rem;">Official Launch Ceremony</div></div></div>
-              <div class="program-row" style="padding:0.35rem 0;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;">10:30 AM</div><div><div class="prog-title" style="font-size:0.7rem;">SAMA Introduction & Vision</div></div></div>
-              <div class="program-row" style="padding:0.35rem 0;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;">11:00 AM</div><div><div class="prog-title" style="font-size:0.7rem;">Keynote & Founder Sharing</div></div></div>
-              <div class="program-row" style="padding:0.35rem 0;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;">11:30 AM</div><div><div class="prog-title" style="font-size:0.7rem;">PH Chapter & Founding Members</div></div></div>
-              <div class="program-row" style="padding:0.35rem 0;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;">12:00 PM</div><div><div class="prog-title" style="font-size:0.7rem;">Panel + Networking</div></div></div>
-              <div class="program-row" style="padding:0.35rem 0;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;">12:30 PM</div><div><div class="prog-title" style="font-size:0.7rem;">Press Conference</div></div></div>
-              <div class="program-row" style="padding:0.35rem 0;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;">5:00 PM</div><div><div class="prog-title" style="font-size:0.7rem;">Celebration Dinner</div></div></div>
-              <div class="program-row" style="padding:0.35rem 0;border-bottom:none;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;">Evening</div><div><div class="prog-title" style="font-size:0.7rem;">Networking & Founder Meet-up</div></div></div>
+            <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;flex:1;">
+              <div>
+                <div style="font-family:Arial,sans-serif;font-size:0.58rem;letter-spacing:0.15em;text-transform:uppercase;color:rgba(255,255,255,0.5);font-weight:700;margin-bottom:0.3rem;">Morning — Launch</div>
+                <div class="program-table">
+                  <div class="program-row" style="padding:0.22rem 0;"><div class="prog-time" style="font-size:0.6rem;width:4.4rem;">10:00 AM</div><div><div class="prog-title" style="font-size:0.66rem;">Welcome & Registration</div></div></div>
+                  <div class="program-row" style="padding:0.22rem 0;"><div class="prog-time" style="font-size:0.6rem;width:4.4rem;">10:30 AM</div><div><div class="prog-title" style="font-size:0.66rem;">Opening</div></div></div>
+                  <div class="program-row" style="padding:0.22rem 0;"><div class="prog-time" style="font-size:0.6rem;width:4.4rem;">10:40 AM</div><div><div class="prog-title" style="font-size:0.66rem;">SAMA Founder Speech</div></div></div>
+                  <div class="program-row" style="padding:0.22rem 0;"><div class="prog-time" style="font-size:0.6rem;width:4.4rem;">10:45 AM</div><div><div class="prog-title" style="font-size:0.66rem;">PH President Speech</div></div></div>
+                  <div class="program-row" style="padding:0.22rem 0;"><div class="prog-time" style="font-size:0.6rem;width:4.4rem;">10:55 AM</div><div><div class="prog-title" style="font-size:0.66rem;">Panel / Keynote</div></div></div>
+                  <div class="program-row" style="padding:0.22rem 0;"><div class="prog-time" style="font-size:0.6rem;width:4.4rem;">11:30 AM</div><div><div class="prog-title" style="font-size:0.66rem;">Introduction to PH Members</div></div></div>
+                  <div class="program-row" style="padding:0.22rem 0;"><div class="prog-time" style="font-size:0.6rem;width:4.4rem;">11:45 AM</div><div><div class="prog-title" style="font-size:0.66rem;">Launch Ceremony</div></div></div>
+                  <div class="program-row" style="padding:0.22rem 0;border-bottom:none;"><div class="prog-time" style="font-size:0.6rem;width:4.4rem;">12:00 NN</div><div><div class="prog-title" style="font-size:0.66rem;">Lunch & Networking</div></div></div>
+                </div>
+              </div>
+              <div>
+                <div style="font-family:Arial,sans-serif;font-size:0.58rem;letter-spacing:0.15em;text-transform:uppercase;color:var(--sky-blue);font-weight:700;margin-bottom:0.3rem;">Afternoon — FLAME 2026</div>
+                <div class="program-table">
+                  <div class="program-row" style="padding:0.22rem 0;"><div class="prog-time" style="font-size:0.6rem;width:4.4rem;color:var(--sky-blue);">2:00 PM</div><div><div class="prog-title" style="font-size:0.66rem;">Arrival & Refreshments</div></div></div>
+                  <div class="program-row" style="padding:0.22rem 0;"><div class="prog-time" style="font-size:0.6rem;width:4.4rem;color:var(--sky-blue);">2:15 PM</div><div><div class="prog-title" style="font-size:0.66rem;">Welcome Address</div></div></div>
+                  <div class="program-row" style="padding:0.22rem 0;"><div class="prog-time" style="font-size:0.6rem;width:4.4rem;color:var(--sky-blue);">2:20 PM</div><div><div class="prog-title" style="font-size:0.66rem;">SAMA: Local Roots to Regional Reach</div></div></div>
+                  <div class="program-row" style="padding:0.22rem 0;"><div class="prog-time" style="font-size:0.6rem;width:4.4rem;color:var(--sky-blue);">2:30 PM</div><div><div class="prog-title" style="font-size:0.66rem;">Understanding Asia: Opportunities?</div></div></div>
+                  <div class="program-row" style="padding:0.22rem 0;"><div class="prog-time" style="font-size:0.6rem;width:4.4rem;color:var(--sky-blue);">2:45 PM</div><div><div class="prog-title" style="font-size:0.66rem;">Growing Beyond Borders</div></div></div>
+                  <div class="program-row" style="padding:0.22rem 0;"><div class="prog-time" style="font-size:0.6rem;width:4.4rem;color:var(--sky-blue);">3:00 PM</div><div><div class="prog-title" style="font-size:0.66rem;">Power of Collaboration</div></div></div>
+                  <div class="program-row" style="padding:0.22rem 0;"><div class="prog-time" style="font-size:0.6rem;width:4.4rem;color:var(--sky-blue);">3:20 PM</div><div><div class="prog-title" style="font-size:0.66rem;">Ask Southeast Asia</div></div></div>
+                  <div class="program-row" style="padding:0.22rem 0;"><div class="prog-time" style="font-size:0.6rem;width:4.4rem;color:var(--sky-blue);">3:50 PM</div><div><div class="prog-title" style="font-size:0.66rem;">Closing Reflections & Group Photo</div></div></div>
+                  <div class="program-row" style="padding:0.22rem 0;"><div class="prog-time" style="font-size:0.6rem;width:4.4rem;color:var(--sky-blue);">4:00 PM</div><div><div class="prog-title" style="font-size:0.66rem;">Cocktail & Networking Reception</div></div></div>
+                  <div class="program-row" style="padding:0.22rem 0;border-bottom:none;"><div class="prog-time" style="font-size:0.6rem;width:4.4rem;color:var(--pale-orange);">7:00 PM</div><div><div class="prog-title" style="font-size:0.66rem;color:var(--pale-orange);">FLAME After Dark ✦</div></div></div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
-        <!-- ── DAY 3 ── -->
-        <div style="background:rgba(61,205,249,0.06);border:1px solid rgba(61,205,249,0.25);border-radius:6px;overflow:hidden;display:flex;flex-direction:column;">
-          <div style="height:3px;background:linear-gradient(90deg,#3dcdf9,rgba(61,205,249,0.15));"></div>
+        <!-- ── DAY 3 (MEMBERS VISIT & ACTIVITIES) ── -->
+        <div style="background:rgba(255,255,255,0.04);border:1px solid rgba(255,255,255,0.14);border-radius:6px;overflow:hidden;display:flex;flex-direction:column;">
+          <div style="height:3px;background:linear-gradient(90deg,rgba(255,255,255,0.6),rgba(255,255,255,0.15));"></div>
           <div style="padding:0.9rem 1.1rem;flex:1;display:flex;flex-direction:column;gap:0.5rem;">
             <div style="margin-bottom:0.3rem;">
-              <div style="font-family:Arial,sans-serif;font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:var(--sky-blue);font-weight:700;">Day 3 · Wednesday 8 July</div>
-              <div style="font-family:Georgia,serif;font-size:0.95rem;color:#fff;font-weight:700;margin-top:0.2rem;">FLAME 2026</div>
-              <div style="font-family:Arial,sans-serif;font-size:0.6rem;text-transform:uppercase;letter-spacing:0.1em;color:rgba(255,255,255,0.4);margin-top:0.15rem;">Half Day · 10 AM – 1 PM · Open</div>
+              <div style="font-family:Arial,sans-serif;font-size:0.6rem;letter-spacing:0.2em;text-transform:uppercase;color:rgba(255,255,255,0.7);font-weight:700;">Day 3 · Wednesday 8 July</div>
+              <div style="font-family:Georgia,serif;font-size:0.95rem;color:#fff;font-weight:700;margin-top:0.2rem;">Members Visit & Activities</div>
+              <div style="font-family:Arial,sans-serif;font-size:0.6rem;text-transform:uppercase;letter-spacing:0.1em;color:rgba(255,255,255,0.4);margin-top:0.15rem;">Members Only · 11 AM – 5 PM (Slots TBD)</div>
             </div>
-            <div style="height:1px;background:rgba(61,205,249,0.2);"></div>
+            <div style="height:1px;background:rgba(255,255,255,0.1);"></div>
             <div class="program-table" style="flex:1;">
-              <div class="program-row" style="padding:0.35rem 0;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;color:var(--sky-blue);">10:00</div><div><div class="prog-title" style="font-size:0.7rem;">Registration & Networking</div></div></div>
-              <div class="program-row" style="padding:0.35rem 0;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;color:var(--sky-blue);">10:30</div><div><div class="prog-title" style="font-size:0.7rem;">Welcome Address</div></div></div>
-              <div class="program-row" style="padding:0.35rem 0;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;color:var(--sky-blue);">10:35</div><div><div class="prog-title" style="font-size:0.7rem;">SAMA: From Local Roots to Regional Reach</div></div></div>
-              <div class="program-row" style="padding:0.35rem 0;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;color:var(--sky-blue);">10:45</div><div><div class="prog-title" style="font-size:0.7rem;">Market Intelligence Session</div><div class="prog-note">Trends Shaping Southeast Asia's Growth</div></div></div>
-              <div class="program-row" style="padding:0.35rem 0;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;color:var(--sky-blue);">11:05</div><div><div class="prog-title" style="font-size:0.7rem;">Panel 1: Scaling Beyond Borders</div></div></div>
-              <div class="program-row" style="padding:0.35rem 0;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;color:var(--sky-blue);">11:30</div><div><div class="prog-title" style="font-size:0.7rem;">Panel 2: Future of Regional Growth is Collaboration</div></div></div>
-              <div class="program-row" style="padding:0.35rem 0;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;color:var(--sky-blue);">11:55</div><div><div class="prog-title" style="font-size:0.7rem;">Closing Remarks & Group Photo</div></div></div>
-              <div class="program-row" style="padding:0.35rem 0;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;color:var(--sky-blue);">12:00</div><div><div class="prog-title" style="font-size:0.7rem;">Networking Lunch</div></div></div>
-              <div class="program-row" style="padding:0.35rem 0;border-bottom:none;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;color:var(--pale-orange);">Evening</div><div><div class="prog-title" style="font-size:0.7rem;color:var(--pale-orange);">FLAME After Dark ✦</div><div class="prog-note" style="color:rgba(255,200,133,0.7);">Invitation only</div></div></div>
+              <div class="program-row" style="padding:0.35rem 0;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;">TBD</div><div><div class="prog-title" style="font-size:0.7rem;">PH Members Office Visit</div></div></div>
+              <div class="program-row" style="padding:0.35rem 0;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;">TBD</div><div><div class="prog-title" style="font-size:0.7rem;">Pickleball</div></div></div>
+              <div class="program-row" style="padding:0.35rem 0;border-bottom:none;"><div class="prog-time" style="font-size:0.63rem;width:5.5rem;">TBD</div><div><div class="prog-title" style="font-size:0.7rem;">Lunch</div></div></div>
             </div>
+            <div style="margin-top:auto;font-family:Arial,sans-serif;font-size:0.64rem;color:rgba(255,255,255,0.4);font-style:italic;padding-top:0.5rem;border-top:1px solid rgba(255,255,255,0.1);">Optional · Open to all members</div>
           </div>
         </div>
 
@@ -1008,7 +1090,7 @@
   <div class="nav-controls">
     <button class="nav-btn" id="prevBtn" onclick="changeSlide(-1)" disabled>&#8592;</button>
     <div class="nav-dot-row" id="dotRow"></div>
-    <div class="slide-counter" id="counter">1 / 6</div>
+    <div class="slide-counter" id="counter">1 / 7</div>
     <button class="nav-btn" id="nextBtn" onclick="changeSlide(1)">&#8594;</button>
   </div>
 
